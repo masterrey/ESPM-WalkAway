@@ -764,6 +764,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayspeed: 3000
+  skylight:
+    serializedVersion: 2
+    key0: {r: 0.09554112, g: 0.10550361, b: 0.1792453, a: 1}
+    key1: {r: 0.2264151, g: 0.19525442, b: 0.086507656, a: 1}
+    key2: {r: 0.56554824, g: 0.6698113, b: 0.6698113, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 3470
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  timestring: 
 --- !u!1001 &525646949
 PrefabInstance:
   m_ObjectHideFlags: 0
