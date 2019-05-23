@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DayCicle : MonoBehaviour
 {
-    double dayseconds;
+    public double dayseconds;
     float anglight;
     public float dayspeed=1;
     Light mylight;

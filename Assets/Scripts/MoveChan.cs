@@ -23,8 +23,12 @@ public class MoveChan : MonoBehaviour
 
     private void FixedUpdate()
     {
-        ctrl.SimpleMove(transform.TransformDirection(inputCtrl*3));
-        anim.SetFloat("Speed", ctrl.velocity.magnitude);
+        ctrl.SimpleMove(transform.TransformDirection(inputCtrl*2));
+        anim.SetFloat("Velocity", ctrl.velocity.magnitude);
         transform.Rotate(inputRotCtrl);
+        if(Input.GetButtonDown("Fire1"))
+        {
+            anim.SetTrigger("Attack");
+        }
     }
 }
